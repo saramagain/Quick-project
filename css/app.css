@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{--blue:#008aff;
+	--navy-blue:#102556;
+	--red:#f05766;}
+
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box; }
+img{max-width: 100%;}
+
+body{font-family: 'Roboto', sans-serif;}
+
+header{    padding: 3px 0;
+    border-bottom: 2px solid #10255621;
+}
+.container{padding-left: 100px;
+padding-right: 100px;}
+.flex{display: flex;
+flex-wrap: wrap;}
+.logo{flex-basis: 20%;
+max-width: 20%;}
+.logo img{}
+
+nav{flex-basis: 80%;
+max-width: 80%;}
+nav ul{display: flex;
+justify-content: flex-end;
+list-style: none;}
+nav ul li{}
+nav ul li a{padding: 18px 9px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--navy-blue);
+    font-weight: 300;}
+nav ul li a:hover{}
+
+.banner-section{padding: 50px 0;}
+.container-sm{max-width: 806px;
+margin: auto;}
+.banner{text-align: center;}
+.banner h1{font-size: 50px;
+    font-weight: 600;
+    color: var(--navy-blue);
+
+}
+.banner h1 strong{color: var(--blue);
+display: block;}
+.banner p{color: var(--navy-blue);
+margin: 30px 0;
+max-width: 750px;}
+.banner img{width:600px;}
+
+.feature-section{padding: 30px 0;}
+.col-2{flex-basis: 50%;
+max-width: 50%;
+padding: 20px;}
+.feature-section h2{font-size: 60px;
+    color: var(--red);
+}
+.feature-section p{color: var(--navy-blue);
+margin: 30px 0;
+max-width: 600px;}
+.feature-section h1{font-size: 50px;
+    font-weight: 600; }
+
+.text-right{text-align: right;}
+
+.service-section{}
+.col-3{flex-basis: 33.33%;
+max-width: 33.33%;
+padding: 20px;}
+.service{padding:120px 38px;
+text-align: center; 
+}
+.color-1{background:#fdebed;}
+.color-2{background:#ebf9f4;}
+.color-3{background:#fff7e8;}
+.service img{height: 240px; }
+.service h3{text-align: left;
+font-size: 23px;
+margin: 20px 0;
+color: var(--navy-blue);}
+.service p{text-align: left;
+	color: var(--navy-blue);
+	font-size: 16px;
+}
+
+
+
+footer{background-color: #008aff;
+padding:30px 0; }
+.copyright{text-align: center;}
+.copyright p{color: #ffffffb3;
+font-size: }
+.copyright p a {
+    display: inline-block;
+    color: #ffffffdb;
+    font-weight: 900;
+    text-decoration: none;
+}
